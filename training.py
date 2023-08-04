@@ -31,7 +31,7 @@ for intent in intents['intents']:
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-#lemmaztize, parole in minuscolo e rimuove duplicati
+#lemmatize, parole in minuscolo e rimuove duplicati
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 #ordino le parole
 words = sorted(list(set(words)))
