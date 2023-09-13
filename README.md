@@ -17,7 +17,7 @@ Questo file contiene i tag presenti all'interno del file json.
 
 • Chats.kv e Main.kv: file realizzati con kivy (framework Python gratuito e open source per lo sviluppo di app mobili), linguaggio molto simile a quello dei CSS che permette di tenere separata la gestione dell'interfaccia grafica da quella che è l'applicazione logica.
 
-• chatguy.py: file contente l'interfaccia grafica. ESEGUIRE QUESTO FILE PER MESSAGGIARE CON IL CHATBOT
+• main.py: file contente l'interfaccia grafica. ESEGUIRE QUESTO FILE PER MESSAGGIARE CON IL CHATBOT
 
 
 
